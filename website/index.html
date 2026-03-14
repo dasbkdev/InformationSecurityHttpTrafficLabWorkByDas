@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учебный портал - Вход в систему</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h1>Корпоративный портал</h1>
+            <p class="subtitle">Учебный стенд для анализа трафика</p>
+            
+            <form action="login.php" method="POST">
+                <div class="textbox">
+                    <input type="text" name="username" placeholder="Имя пользователя" required>
+                </div>
+                <div class="textbox">
+                    <input type="password" name="password" placeholder="Пароль" required>
+                </div>
+                <button type="submit" class="btn">Войти</button>
+            </form>
+            
+            <div class="warning">
+                ⚠️ ВНИМАНИЕ: Это учебный стенд. Все данные логируются для обучения.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
